@@ -1,34 +1,19 @@
-# Project Title
+# Almost Gotcha!
+### Evil USB
+
+## Requirements
+1. USB Rubber Ducky (or any other small computer that can act as a HID and reads DuckyScript)
+2. MicroSD card
+3. The almost_gotcha txt file compiled into an inject.bin file
 
 ## Introduction
-This project aims to [briefly describe the purpose of your project].
-
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Configure the settings in `config.js`.
-4. Run the project using `npm start`.
+The Evil USB is a password stealing penetration tool. It utilizes DuckyScript to transer an encoded Python script. This script goes into Chrome and pulls all usernames and passwords from whoever is logged in. It then puts all of these passwords into an email and ALMOST sends them to a recipient of your choice.
 
 ## Usage
-1. [Describe how to use your project or provide examples].
-2. [Add more usage instructions as needed].
+1. Download the DuckyScript and input it into Hak5's payload generator: https://payloadstudio.com/login/
+2. Transfer inject.bin file that is generated into a microSD card. (Note: The sd card needs to be formatted as FAT/FAT32, and have NO OTHER FILES/FOLDERS)
+3. Place microSD into Rubber Ducky and surprise your friends.
 
-## Contributing
-Contributions are welcome! Please follow these guidelines:
-- Fork the repository.
-- Create a new branch (`git checkout -b feature-branch`).
-- Commit your changes (`git commit -am 'Add new feature'`).
-- Push to the branch (`git push origin feature-branch`).
-- Create a new Pull Request.
-
-## License
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Contact
-For any inquiries, please contact [Your Name] at [your-email@example.com].
+## Usage Agreement
+This repositories contents are not intended for any use other than educational.
 
