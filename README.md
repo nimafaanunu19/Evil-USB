@@ -17,6 +17,8 @@ The Evil USB is a password stealing penetration tool. It utilizes DuckyScript to
 ## Potential Customization
 What I have created is a template for this attack. You can customize this in many different ways. One easy way would be to change the email address that it sends the usernames and passwords to. A more creative way would be to hide these processes in the background so that the user has no idea this is happening. Up to you!
 
+(P.S. the machines that I intended to be targeted for this already had python installed. If your target probably doesn't have python installed, you will need to add this to the DuckyScript.)
+
 ## Usage Agreement
 This repositories contents are not intended for any use other than educational.
 
