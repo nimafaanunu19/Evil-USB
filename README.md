@@ -14,6 +14,9 @@ The Evil USB is a password stealing penetration tool. It utilizes DuckyScript to
 2. Transfer inject.bin file that is generated into a microSD card. (Note: The sd card needs to be formatted as FAT/FAT32, and have NO OTHER FILES/FOLDERS)
 3. Place microSD into Rubber Ducky and surprise your friends.
 
+## Potential Customization
+What I have created is a template for this attack. You can customize this in many different ways. One easy way would be to change the email address that it sends the usernames and passwords to. A more creative way would be to hide these processes in the background so that the user has no idea this is happening. Up to you!
+
 ## Usage Agreement
 This repositories contents are not intended for any use other than educational.
 
